@@ -1,0 +1,85 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#logo {
+    width: 2vw;
+}
+
+body {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+    
+#all-page-question {
+    /* background-image: url("../images/thinking-chinese.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    padding-top: 35vh;
+}
+
+.with-grey-gradient-bg {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.drone-description-list {
+    font-size: 1.6vw;
+    text-align: left;
+    margin-left: 10vw;
+    margin-top: 20vh;
+}
+
+.drone-description-list a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+#arrow-down-first {
+    margin-top: 30vh;
+}
+
+.navigation-arrow {
+    cursor: pointer;
+    width: 5vw;
+}
+
+.navigation-arrow:hover {
+    opacity: 0.5;
+}
+
+#answer-section {
+    height: 100vh;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+    
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+    display: none; 
+    }
+}
