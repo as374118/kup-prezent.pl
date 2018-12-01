@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Najlepszy prezent dla chłopaka</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css" />
+    <link rel="icon" href="/assets/images/logo2.png" />
+    <script src="/assets/js/load-html.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/scrolling.js"></script>
+  </head>
+  <body>
+    {% include navigation.html %}
+
+    {% if page.name contains "faq" %}
+    
+      <div id="faq-content-block">
+          {{ content }}
+      </div>
+    {% else %}
+      {{ content }}
+    {% endif %}
+
+    <footer class="container-fluid text-center">
+        <a href="#">Please read our privacy policy</a> <a></a>
+    </footer>
+  </body>
+</html>

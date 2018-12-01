@@ -1,1 +1,9 @@
-Maybe it could be good idea to add slider with drine images to the answers section
+# Cześć! Co słychać? :)
+
+### Budowanie statycznych plików
+    jekyll build
+
+### Serwowanie + live-reload na localhost:4000
+    jekyll serve
+
+### Dobrego kodowania!!!

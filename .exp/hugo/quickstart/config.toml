@@ -1,0 +1,4 @@
+baseURL = "https://kup-prezent.pl/"
+languageCode = "pl-pl"
+title = "Najlepszy prezent"
+theme = "ananke"

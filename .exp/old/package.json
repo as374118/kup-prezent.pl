@@ -1,0 +1,22 @@
+{
+  "name": "kup-prezent.pl",
+  "version": "1.0.0",
+  "description": "Maybe it could be good idea to add slider with drine images to the answers section",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as374118/kup-prezent.pl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/as374118/kup-prezent.pl/issues"
+  },
+  "homepage": "https://github.com/as374118/kup-prezent.pl#readme",
+  "dependencies": {
+    "mustache": "^3.0.1"
+  }
+}
