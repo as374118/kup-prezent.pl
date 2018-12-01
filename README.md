@@ -8,4 +8,7 @@
 
     jekyll serve
 
+### TODOs
+ - sprawdzić updateowanie git-a przez crontab
+
 ### Dobrego kodowania!!!
