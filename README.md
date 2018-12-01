@@ -9,7 +9,7 @@
     jekyll serve
 
 ### TODOs
- - sprawdzić updateowanie git-a przez crontab - jeszcze TODO
+ - sprawdzić updateowanie git-a przez crontab
 
 
 ### Dobrego kodowania!!!
