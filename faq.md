@@ -87,3 +87,5 @@ najniszą cenę (prawie bo dołączamy dodatkową baterię która osobno kosztuj
 
 ## Czy mogę zadać dodatkowe pytania
 Jasne :) tu jest formularz do tego TODO link
+
+## SPrawdzenie CI 2258
